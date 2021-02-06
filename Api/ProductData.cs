@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace Api
 {
+    /// <summary>
+    /// Interface
+    /// </summary>
     public interface IProductData
     {
         Task<Product> AddProduct(Product product);
